@@ -146,7 +146,7 @@ def presetup():
     setup()
 
 # Function to display welcome screen and get player names
-def welcome():
+def Welcome():
     global entry_1, entry_2
     welcome_text = tk.Label(canvas, bg='white', fg='black', font=('brown sugar', 40), text='Tic-Tac-Toe')
     welcome_text.place(relx=0.3, rely=0.1, relwidth=0.4)
@@ -166,5 +166,5 @@ def welcome():
     start_button.place(relx=0.45, rely=0.65, relheight=0.06, relwidth=0.1)
 
 # Starting the welcome screen
-welcome()
+Welcome()
 root.mainloop()
